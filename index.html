@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Professional Portfolio | Translation, QA and Audiovisual</title>
+    <meta
+      name="description"
+      content="Professional portfolio for translation, linguistic QA, audiovisual localization, and project samples."
+    />
+    <link rel="stylesheet" href="styles.css?v=hyperlink-editor" />
+  </head>
+  <body>
+    <div class="edit-toolbar" aria-label="Site editor controls">
+      <div class="edit-actions">
+        <button type="button" id="editToggle" aria-pressed="false">Edit site</button>
+        <button type="button" id="saveEdits">Save</button>
+        <button type="button" id="exportHtml">Export HTML</button>
+        <button type="button" id="duplicateBox">Duplicate box</button>
+        <button type="button" id="deleteBox">Delete box</button>
+        <button type="button" id="deleteSection">Delete section</button>
+        <button type="button" id="addLink">Add link</button>
+        <button type="button" id="resetStyle">Reset style</button>
+        <button type="button" id="resetEdits">Reset all</button>
+        <span id="editStatus" role="status">Edit mode off</span>
+      </div>
+      <div class="design-controls" id="designControls" aria-label="Selected element design controls">
+        <label>
+          Font
+          <select id="fontFamilyControl">
+            <option value="">Default</option>
+            <option value="Arial, Helvetica, sans-serif">Arial</option>
+            <option value="Georgia, 'Times New Roman', serif">Georgia</option>
+            <option value="'Times New Roman', Times, serif">Times</option>
+            <option value="'Courier New', Courier, monospace">Courier</option>
+            <option value="Verdana, Geneva, sans-serif">Verdana</option>
+          </select>
+        </label>
+        <label>
+          Size
+          <input id="fontSizeControl" type="number" min="8" max="160" step="1" placeholder="px" />
+        </label>
+        <label>
+          Line
+          <input id="lineHeightControl" type="number" min="0.8" max="3" step="0.1" placeholder="1.4" />
+        </label>
+        <label>
+          Width
+          <input id="widthControl" type="number" min="40" max="1400" step="10" placeholder="px" />
+        </label>
+        <label>
+          Height
+          <input id="heightControl" type="number" min="20" max="900" step="10" placeholder="px" />
+        </label>
+        <label>
+          Padding
+          <input id="paddingControl" type="number" min="0" max="120" step="2" placeholder="px" />
+        </label>
+        <label>
+          Align
+          <select id="textAlignControl">
+            <option value="">Default</option>
+            <option value="left">Left</option>
+            <option value="center">Center</option>
+            <option value="right">Right</option>
+          </select>
+        </label>
+        <label>
+          Text
+          <input id="textColorControl" type="color" />
+        </label>
+        <label>
+          Fill
+          <input id="backgroundColorControl" type="color" />
+        </label>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">JB</span>
+        <span data-editable="brand-name">Translator &amp; Interpreter</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#resume">Résumé</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-editable="hero-eyebrow">Translation / QA / Audiovisual Localization</p>
+          <h1 data-editable="hero-title">Julieta Beltramo</h1>
+          <p class="lead" data-editable="hero-lead">
+            I am a translator and linguistic QA specialist focused on
+            audiovisual content, localization, and quality control for
+            clear, consistent, publication-ready projects.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" data-editable="hero-button-primary">View samples</a>
+            <a class="button secondary" href="#contact" data-editable="hero-button-secondary">Contact</a>
+          </div>
+        </div>
+        <figure class="hero-visual portrait-frame" aria-label="Professional portrait" data-movable="hero-portrait">
+          <img src="assets/julieta-beltramo-portrait.jpeg" alt="Professional portrait of Julieta Beltramo" />
+        </figure>
+      </section>
+
+      <section class="intro-band" aria-label="Professional summary">
+        <div>
+          <span class="stat" data-editable="stat-one-value">+X</span>
+          <span data-editable="stat-one-label">years of experience</span>
+        </div>
+        <div>
+          <span class="stat" data-editable="stat-two-value">EN / ES</span>
+          <span data-editable="stat-two-label">language pairs</span>
+        </div>
+        <div>
+          <span class="stat" data-editable="stat-three-value">QA</span>
+          <span data-editable="stat-three-label">terminology, style, and consistency</span>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-editable="resume-eyebrow">Résumé</p>
+          <h2 data-editable="resume-title">Work and Education History</h2>
+        </div>
+        <div class="timeline-grid">
+          <article class="timeline">
+            <h3 data-editable="work-title">Work History</h3>
+            <ol>
+              <li>
+                <span class="date" data-editable="work-one-date">2024 - Present</span>
+                <strong data-editable="work-one-role">Freelance Translator / Linguistic QA</strong>
+                <p data-editable="work-one-copy">
+                  Translation, editing, LQA, and content adaptation for
+                  technology, entertainment, and communication clients.
+                </p>
+              </li>
+              <li>
+                <span class="date" data-editable="work-two-date">2022 - 2024</span>
+                <strong data-editable="work-two-role">Localization QA Specialist</strong>
+                <p data-editable="work-two-copy">
+                  Linguistic quality control, bug reporting,
+                  style validation, and issue follow-up.
+                </p>
+              </li>
+              <li>
+                <span class="date" data-editable="work-three-date">Year - Year</span>
+                <strong data-editable="work-three-role">New Work Experience</strong>
+                <p data-editable="work-three-copy">
+                  Add your role description, responsibilities, clients, or project highlights here.
+                </p>
+              </li>
+            </ol>
+          </article>
+
+          <article class="timeline education-timeline">
+            <h3 data-editable="education-title">Education History</h3>
+            <ol>
+              <li>
+                <span class="date" data-editable="education-row-one-date">2016 - 2020</span>
+                <div class="education-detail">
+                  <strong data-editable="education-row-one-title">Sworn Translator of English</strong>
+                  <p data-editable="education-row-one-copy">Undergraduate Degree - National University of Córdoba, Argentina</p>
+                </div>
+              </li>
+              <li>
+                <span class="date" data-editable="education-row-two-date">2024 - Ongoing</span>
+                <div class="education-detail">
+                  <strong data-editable="education-row-two-title">Cultural Exchange | Leuven, Belgium</strong>
+                  <p data-editable="education-row-two-copy">Consecutive and Simultaneous Interpretation - Estudio Lucille Barnes</p>
+                </div>
+              </li>
+              <li>
+                <span class="date" data-editable="education-row-three-date">Year - Year</span>
+                <div class="education-detail">
+                  <strong data-editable="education-row-three-title">New Education Experience</strong>
+                  <p data-editable="education-row-three-copy">Add your degree description, academic achievements, or institution details here.</p>
+                </div>
+              </li>
+            </ol>
+          </article>
+        </div>
+
+        <div class="programs">
+          <h3 data-editable="programs-title">Computer Programs</h3>
+          <ul class="tag-list">
+            <li data-editable="program-one">Trados Studio</li>
+            <li data-editable="program-two">memoQ</li>
+            <li data-editable="program-three">Phrase</li>
+            <li data-editable="program-four">Smartcat</li>
+            <li data-editable="program-five">Subtitle Edit</li>
+            <li data-editable="program-six">Aegisub</li>
+            <li data-editable="program-seven">Microsoft Office</li>
+            <li data-editable="program-eight">Google Workspace</li>
+            <li data-editable="program-nine">Jira</li>
+            <li data-editable="program-ten">Notion</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="services" class="section tinted">
+        <div class="section-heading">
+          <p class="eyebrow" data-editable="services-eyebrow">Services</p>
+          <h2 data-editable="services-title">Professional Services</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="icon">T</span>
+            <h3 data-editable="service-one-title">Translation</h3>
+            <p data-editable="service-one-copy">EN-ES translation focused on natural flow, tone, and terminological precision.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">I</span>
+            <h3 data-editable="service-two-title">Linguistic QA</h3>
+            <p data-editable="service-two-copy">Review of linguistic bugs, consistency, style, UI strings, and clear reports.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">AV</span>
+            <h3 data-editable="service-three-title">Interpreting</h3>
+            <p data-editable="service-three-copy">Consecutive and simultaneous interpreting for professional, academic, and cultural contexts.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-editable="projects-eyebrow">Projects / Samples</p>
+          <h2 data-editable="projects-title">Selected Samples</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-one-meta-one">Translation Sample</span>
+              <span data-editable="project-one-meta-two">EN to ES</span>
+            </div>
+            <h3 data-editable="project-one-title">Article / Blog Localization</h3>
+            <p data-editable="project-one-copy">
+              Brief sample with source text, final translation, and tone decisions.
+            </p>
+            <a href="#contact" data-editable="project-one-link">Request sample</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-two-meta-one">QA Sample</span>
+              <span data-editable="project-two-meta-two">Bug Report</span>
+            </div>
+            <h3 data-editable="project-two-title">Linguistic QA Report</h3>
+            <p data-editable="project-two-copy">
+              Sample issue report with severity, context, proposed correction, and rationale.
+            </p>
+            <a href="#contact" data-editable="project-two-link">View format</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-three-meta-one">Audiovisual</span>
+              <span data-editable="project-three-meta-two">Subtitles</span>
+            </div>
+            <h3 data-editable="project-three-title">Subtitle Adaptation</h3>
+            <p data-editable="project-three-copy">
+              Comparison of literal vs. adapted subtitles, CPS readability, and condensation.
+            </p>
+            <a href="#contact" data-editable="project-three-link">Request sample</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-four-meta-one">Sample Type</span>
+              <span data-editable="project-four-meta-two">Language Pair</span>
+            </div>
+            <h3 data-editable="project-four-title">New Sample Title</h3>
+            <p data-editable="project-four-copy">
+              Add a short description of the sample, client context, tools, or creative choices here.
+            </p>
+            <a href="#contact" data-editable="project-four-link">Add link text</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-five-meta-one">Sample Type</span>
+              <span data-editable="project-five-meta-two">Language Pair</span>
+            </div>
+            <h3 data-editable="project-five-title">New Sample Title</h3>
+            <p data-editable="project-five-copy">
+              Add a short description of the sample, client context, tools, or creative choices here.
+            </p>
+            <a href="#contact" data-editable="project-five-link">Add link text</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-six-meta-one">Sample Type</span>
+              <span data-editable="project-six-meta-two">Language Pair</span>
+            </div>
+            <h3 data-editable="project-six-title">New Sample Title</h3>
+            <p data-editable="project-six-copy">
+              Add a short description of the sample, client context, tools, or creative choices here.
+            </p>
+            <a href="#contact" data-editable="project-six-link">Add link text</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-seven-meta-one">Sample Type</span>
+              <span data-editable="project-seven-meta-two">Language Pair</span>
+            </div>
+            <h3 data-editable="project-seven-title">New Sample Title</h3>
+            <p data-editable="project-seven-copy">
+              Add a short description of the sample, client context, tools, or creative choices here.
+            </p>
+            <a href="#contact" data-editable="project-seven-link">Add link text</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-eight-meta-one">Sample Type</span>
+              <span data-editable="project-eight-meta-two">Language Pair</span>
+            </div>
+            <h3 data-editable="project-eight-title">New Sample Title</h3>
+            <p data-editable="project-eight-copy">
+              Add a short description of the sample, client context, tools, or creative choices here.
+            </p>
+            <a href="#contact" data-editable="project-eight-link">Add link text</a>
+          </article>
+          <article class="project-card">
+            <div class="project-meta">
+              <span data-editable="project-nine-meta-one">Sample Type</span>
+              <span data-editable="project-nine-meta-two">Language Pair</span>
+            </div>
+            <h3 data-editable="project-nine-title">New Sample Title</h3>
+            <p data-editable="project-nine-copy">
+              Add a short description of the sample, client context, tools, or creative choices here.
+            </p>
+            <a href="#contact" data-editable="project-nine-link">Add link text</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div>
+          <p class="eyebrow" data-editable="contact-eyebrow">Contact</p>
+          <h2 data-editable="contact-title">Let's work together</h2>
+          <p data-editable="contact-copy">
+            Tell me what you need translated, reviewed, or localized. I can reply
+            with availability, estimated timelines, and the most useful sample type
+            for your project.
+          </p>
+        </div>
+        <div class="contact-panel">
+          <a href="mailto:tuemail@example.com" data-editable="contact-email">tuemail@example.com</a>
+          <a href="https://www.linkedin.com/in/tuusuario" data-editable="contact-linkedin">LinkedIn</a>
+          <a href="https://wa.me/5490000000000" data-editable="contact-whatsapp">WhatsApp</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-editable="footer-credit">Copyright 2026 Tu Nombre Apellido</span>
+      <span data-editable="footer-tagline">Translation / QA / Audiovisual Localization</span>
+    </footer>
+    <script src="editor.js?v=hyperlink-editor"></script>
+  </body>
+</html>
