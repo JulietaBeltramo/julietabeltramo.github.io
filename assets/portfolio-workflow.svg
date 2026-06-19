@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="760" viewBox="0 0 980 760" role="img" aria-labelledby="title desc">
+  <title id="title">Workflow de traduccion, QA y audiovisual</title>
+  <desc id="desc">Composicion editorial con pantalla de subtitulos, checklist de QA y documentos traducidos.</desc>
+  <rect width="980" height="760" fill="#dfe8dd"/>
+  <rect x="70" y="70" width="840" height="620" rx="26" fill="#fbfaf7"/>
+  <rect x="118" y="126" width="460" height="292" rx="14" fill="#17211f"/>
+  <rect x="148" y="158" width="400" height="168" rx="8" fill="#30514d"/>
+  <rect x="174" y="352" width="248" height="34" rx="4" fill="#fbfaf7"/>
+  <rect x="438" y="352" width="78" height="34" rx="4" fill="#c7553f"/>
+  <path d="M175 230c55-54 117-54 186 0 45 35 99 36 162 2v94H175z" fill="#8fbdb5"/>
+  <circle cx="426" cy="195" r="38" fill="#f2c66d"/>
+  <rect x="630" y="126" width="220" height="352" rx="14" fill="#ffffff" stroke="#d8ddd7" stroke-width="4"/>
+  <rect x="662" y="166" width="112" height="12" rx="6" fill="#0f766e"/>
+  <rect x="662" y="206" width="156" height="10" rx="5" fill="#d8ddd7"/>
+  <rect x="662" y="236" width="132" height="10" rx="5" fill="#d8ddd7"/>
+  <rect x="662" y="266" width="148" height="10" rx="5" fill="#d8ddd7"/>
+  <g fill="none" stroke="#0f766e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M666 332l18 18 38-44"/>
+    <path d="M666 400l18 18 38-44"/>
+  </g>
+  <rect x="746" y="320" width="76" height="10" rx="5" fill="#d8ddd7"/>
+  <rect x="746" y="388" width="76" height="10" rx="5" fill="#d8ddd7"/>
+  <rect x="126" y="468" width="310" height="130" rx="12" fill="#ffffff" stroke="#d8ddd7" stroke-width="4"/>
+  <rect x="156" y="500" width="110" height="12" rx="6" fill="#c7553f"/>
+  <rect x="156" y="532" width="220" height="10" rx="5" fill="#d8ddd7"/>
+  <rect x="156" y="560" width="184" height="10" rx="5" fill="#d8ddd7"/>
+  <rect x="488" y="520" width="298" height="78" rx="12" fill="#17211f"/>
+  <text x="637" y="568" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fbfaf7">SUBTITLE QC</text>
+  <circle cx="822" cy="566" r="36" fill="#b8842e"/>
+  <path d="M806 568l13 13 27-34" fill="none" stroke="#fbfaf7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
