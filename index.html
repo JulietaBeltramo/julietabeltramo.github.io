@@ -11,72 +11,7 @@
     <link rel="stylesheet" href="styles.css?v=hyperlink-editor" />
   </head>
   <body>
-    <div class="edit-toolbar" aria-label="Site editor controls">
-      <div class="edit-actions">
-        <button type="button" id="editToggle" aria-pressed="false">Edit site</button>
-        <button type="button" id="saveEdits">Save</button>
-        <button type="button" id="exportHtml">Export HTML</button>
-        <button type="button" id="duplicateBox">Duplicate box</button>
-        <button type="button" id="deleteBox">Delete box</button>
-        <button type="button" id="deleteSection">Delete section</button>
-        <button type="button" id="addLink">Add link</button>
-        <button type="button" id="resetStyle">Reset style</button>
-        <button type="button" id="resetEdits">Reset all</button>
-        <span id="editStatus" role="status">Edit mode off</span>
-      </div>
-      <div class="design-controls" id="designControls" aria-label="Selected element design controls">
-        <label>
-          Font
-          <select id="fontFamilyControl">
-            <option value="">Default</option>
-            <option value="Arial, Helvetica, sans-serif">Arial</option>
-            <option value="Georgia, 'Times New Roman', serif">Georgia</option>
-            <option value="'Times New Roman', Times, serif">Times</option>
-            <option value="'Courier New', Courier, monospace">Courier</option>
-            <option value="Verdana, Geneva, sans-serif">Verdana</option>
-          </select>
-        </label>
-        <label>
-          Size
-          <input id="fontSizeControl" type="number" min="8" max="160" step="1" placeholder="px" />
-        </label>
-        <label>
-          Line
-          <input id="lineHeightControl" type="number" min="0.8" max="3" step="0.1" placeholder="1.4" />
-        </label>
-        <label>
-          Width
-          <input id="widthControl" type="number" min="40" max="1400" step="10" placeholder="px" />
-        </label>
-        <label>
-          Height
-          <input id="heightControl" type="number" min="20" max="900" step="10" placeholder="px" />
-        </label>
-        <label>
-          Padding
-          <input id="paddingControl" type="number" min="0" max="120" step="2" placeholder="px" />
-        </label>
-        <label>
-          Align
-          <select id="textAlignControl">
-            <option value="">Default</option>
-            <option value="left">Left</option>
-            <option value="center">Center</option>
-            <option value="right">Right</option>
-          </select>
-        </label>
-        <label>
-          Text
-          <input id="textColorControl" type="color" />
-        </label>
-        <label>
-          Fill
-          <input id="backgroundColorControl" type="color" />
-        </label>
-      </div>
-    </div>
-
-    <header class="site-header">
+        <header class="site-header">
       <a class="brand" href="#home" aria-label="Go to home">
         <span class="brand-mark">JB</span>
         <span data-editable="brand-name">Translator &amp; Interpreter</span>
